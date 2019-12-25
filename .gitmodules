@@ -1,0 +1,6 @@
+[submodule "Module_3_Read_Alignment"]
+	path = Module_3_Read_Alignment
+	url = https://github.com/WTAC-NGS/Module_3_Read_Alignment
+[submodule "Module_6_ChipSeq"]
+	path = Module_6_ChipSeq
+	url = https://github.com/WTAC-NGS/Module_6_ChipSeq
