@@ -4,3 +4,6 @@
 [submodule "Module_6_ChipSeq"]
 	path = Module_6_ChipSeq
 	url = https://github.com/WTAC-NGS/Module_6_ChipSeq
+[submodule "WTAC_NGS_Group_Tasks"]
+	path = WTAC_NGS_Group_Tasks
+	url = https://github.com/WTAC-NGS/WTAC_NGS_Group_Tasks
