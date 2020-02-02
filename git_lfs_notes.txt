@@ -1,0 +1,25 @@
+Various data/ folders inside the practical and group task folders will contain large files.
+These are stored and managed by git lfs, and github's LFS repo in this case.
+The tutorial for these is here:
+
+https://git-lfs.github.com/ 
+
+In this case I inserted the data files as follows
+
+1) install git-lfs
+
+2) git lfs init
+
+3) git lfs track practical/data/ref/* (for instance)
+
+4) git add practical/data/ref/*
+
+5) git commit, push as usual
+
+6) list tracked files:
+(base) mib113211i:WTAC_NGS_Group_Tasks vvi$ git lfs ls-files
+83a30ce9ce * ChIPSeq/data/Control.bam
+4928432be6 * ChIPSeq/data/PAX5.bam
+872723fb11 * ChIPSeq/data/genes.fpkm_tracking
+4a8d941b4b * ChIPSeq/data/v1.bam
+b20eb6bbda * ChIPSeq/data/v2.bam
